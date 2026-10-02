@@ -15,7 +15,7 @@ public class Main {
         int soma2 = num3 * num4;
         System.out.println("O resultado dessa multiplicação é " + soma2);*/
 
-        /* Lógica para deescobrir se um número é IMPAR ou PAR */
+        /* Lógica para deescobrir se um número é IMPAR ou PAR
         System.out.println("Digite um número e descubra se ele é impar ou par");
         int numero =  new Scanner(System.in).nextInt();
 
@@ -26,7 +26,18 @@ public class Main {
         }
         else{
             System.out.println("Esse número é IMPAR");
-        }
+        }*/
+
+        /* Lógica para verificar se você é maior ou menor de idade
+        System.out.println("Digite sua idade ");
+        int Idade = new Scanner(System.in).nextInt();
+
+        if (Idade >= 18) {
+            System.out.println("maior de Idade");
+        }else {
+            System.out.println("menor de Idade");
+
+        }*/
 
     }
 }
